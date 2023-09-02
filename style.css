@@ -1,0 +1,38 @@
+/* css */
+
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 50px 100px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav > ul {
+  display: flex;
+}
+ul li {
+  margin-right: 30px;
+}
+
+/* banner style */
+.banner-content {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #131313;
+}
+.banner-description {
+  color: #727272;
+}
+/* media query */
