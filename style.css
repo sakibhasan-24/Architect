@@ -77,6 +77,60 @@ main {
   font-weight: 400;
   line-height: 26px;
 }
+
+/* features text */
+.features-container {
+  margin-top: 60px;
+  display: flex;
+}
+.features-title {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+}
+.features-text {
+  color: #727272;
+  line-height: 26px; /* 162.5% */
+}
+.features {
+}
+
+/* facts */
+.facts-section {
+}
+.facts-title {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+}
+.fact-text {
+  width: 550px;
+  color: #727272;
+  line-height: 26px; /* 162.5% */
+}
+.facts-card-container {
+  display: flex;
+  justify-content: space-between;
+}
+.fact {
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  padding: 30px;
+  text-align: center;
+}
+.fact-card-title {
+  color: #424242;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.fact-card-text {
+  color: #727272;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 5px;
+}
 /*  */
 /* media query */
 
