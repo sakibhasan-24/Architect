@@ -55,7 +55,6 @@ main {
 }
 .teams-container {
   margin-top: 40px;
-
   display: flex;
   align-items: center;
 }
@@ -76,7 +75,7 @@ main {
 .team-description {
   color: #727272;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
 }
 /*  */
 /* media query */
@@ -86,11 +85,15 @@ main {
   header {
     padding: 20px;
   }
-  nav {
+  nav,
+  .teams-container {
     flex-direction: column;
   }
   .nav-title {
     font-size: 20px;
+  }
+  .team-img-container {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -99,4 +102,9 @@ main {
   header {
     padding: 60px;
   }
+  .teams-container {
+    flex-direction: column;
+  }
 }
+
+/* for teams section (mobile) */
