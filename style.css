@@ -131,6 +131,20 @@ main {
   font-weight: 600;
   margin-top: 5px;
 }
+.sponsors {
+  text-align: center;
+  margin-top: 80px;
+}
+.sponsors-img {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+  gap: 40px;
+}
+.sponsors-img img {
+  width: 170px;
+}
 /*  */
 /* media query */
 
@@ -148,6 +162,16 @@ main {
   }
   .team-img-container {
     grid-template-columns: 1fr;
+  }
+  .facts-card-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .fact {
+    padding: 20px;
+  }
+  .sponsors-img {
+    flex-direction: column;
   }
 }
 
